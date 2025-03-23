@@ -1,0 +1,93 @@
+
+:root {
+    --wdt-lateral-margin: 20px;
+}
+
+/** ------------------------- GLOBAL STYLES ------------------------- */
+
+.desktop-hide {display: unset}
+
+.mobile-hide {display: none !important}
+
+/** ------------------------- HERO ------------------------- */
+
+.wave-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* width: 850px; */
+    opacity: .8;
+    z-index: 0;
+}
+
+#hero main {
+    margin-top: calc(var(--dms-header-height) / 2);
+    flex-direction: column;
+    align-items: center;
+}
+
+#hero .left p.middle-txt {
+    width: 280px;
+}
+
+/** ------------------------- SERVICES ------------------------- */
+
+#services main {
+    width: 100%;
+    flex-direction: column;
+}
+
+#services main .wrapper {
+    margin: 10px 0;
+}
+
+/** ------------------------- ABOUT US ------------------------- */
+
+#about main {
+    width: calc(100% - var(--dms-lateral-margin) * 1.5);
+}
+
+#about main .stats {
+    flex-direction: column;
+    margin-top: 5px;
+}
+#about main .stats .data {margin: 10px 0}
+
+/** ------------------------- TECHONOLOGIES ------------------------- */
+
+#tech main {
+    height: 70px;
+    margin: 30px 0 15px;
+}
+
+#tech main .carousel img {margin: 0 8px}
+
+#tech main .carousel p.separator {width: 50px}
+
+/** ------------------------- PROJECTS ------------------------- */
+
+#proj main {
+    width: calc(100% - var(--dms-lateral-margin) * 1.5);
+}
+
+#proj .project p.name {
+    font-size: var(--size-large);
+}
+
+/** ------------------------- POLICY ------------------------- */
+
+#policy {
+    padding: 0 5%;
+    padding-bottom: 50px;
+}
+
+/** ------------------------- FOOTER ------------------------- */
+
+footer {
+    padding: 15px 25px;
+    flex-direction: column;
+}
+
+footer p {
+    margin: 7px 0;
+}

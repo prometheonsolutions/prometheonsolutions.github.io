@@ -1,0 +1,52 @@
+
+:root {
+    --size-very-small: 10px;
+    --size-small: 12px;
+    --size-medium: 18px;
+    --size-large: 25px;
+    --size-very-large: 40px;
+
+    --dms-lateral-margin: 50px;
+
+}
+
+/** ------------------------- HEADER ------------------------- */
+
+
+header img.logo {
+    margin-right: 10px
+}
+
+header nav a {
+    margin: 0 17px
+}
+
+/** ------------------------- SERVICES ------------------------- */
+
+#services main {
+    width: calc(100% - var(--dms-lateral-margin) * 1.5);
+}
+
+#services main .circle {
+    height: 40px;
+    font-size: 18px;
+}
+
+#services main .card {
+    width: 250px;
+    padding: 15px;
+    padding-top: calc(10px + 20px);
+}
+
+/** ------------------------- TECHONOLOGIES ------------------------- */
+
+#tech main {
+    height: 80px;
+    margin: 40px 0 20px;
+}
+
+/** ------------------------- POLICY ------------------------- */
+
+#policy {
+    padding: 0 10%;
+}
