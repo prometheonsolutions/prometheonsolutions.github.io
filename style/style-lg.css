@@ -3,7 +3,7 @@
 
     /* COLORS */
     --bg: 255, 255, 255;
-    --bg-alt: 236, 236, 236;
+    --bg-alt: 248, 248, 248;
     --text: 26, 26, 26;
     --accent: 255, 139, 66;
     --smooth: 255, 225, 207;
@@ -28,7 +28,7 @@
     --transition: .3s ease all;
 
     /* DIMENSION */
-    --dms-header-height: 80px;
+    --dms-header-height: 69px;
     --dms-lateral-margin: 150px;
 
 }
@@ -399,20 +399,21 @@ body.home {
     justify-content: space-between;
     padding: 20px;
     padding-top: calc(15px + 25px);
-    background: var(--clr-text);
+    background: var(--clr-bg);
     border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .35);
 }
 
 #services main .card p.title {
     font-size: var(--size-small);
     font-weight: bold;
-    color: var(--clr-bg);
+    color: var(--clr-text);
     letter-spacing: .3px;
 }
 
 #services main .card p.desc {
     font-size: var(--size-very-small);
-    color: var(--clr-bg-alt);
+    color: var(--clr-text);
     text-align: center;
     text-wrap: pretty;
     line-height: 1.3;
@@ -510,7 +511,9 @@ body.home {
 
 #tech main .carousel p.separator {
     width: 80px;
-    visibility: hidden;
+    text-align: center;
+    font-size: 10px;
+    opacity: .4;
 }
 
 @media screen and (min-width: 1000px) {
