@@ -555,10 +555,10 @@ body.home {
 }
 
 #proj .project {
-    width: 300px;
+    width: 430px;
     aspect-ratio: 2;
-    margin: 20px 15px;
-    border: 3px solid var(--clr-accent);
+    margin: 20px 10px;
+    border: 2px solid var(--clr-accent);
     overflow: hidden;
     border-radius: 10px;
     transition: var(--transition);
